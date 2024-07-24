@@ -48,7 +48,7 @@ export default function Category() {
 
                             <div className="col-lg-3">
                             <div className="banner banner-image">
-                                <a href="demo7-shop.html">
+                                <a href="#">
                                     <img src="/products/pepper.webp" width="272" height="231" alt="banner" />
                                 </a>
                                 <div className="banner-layer banner-layer-middle">

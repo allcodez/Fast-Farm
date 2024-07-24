@@ -69,9 +69,9 @@ export default function Header() {
 
                             <nav className="main-nav w-100">
                                 <ul className="menu">
-                                    {/* <li className="">
-                                    <Link to="/" >Home</Link>
-                                </li> */}
+                                    <li className="">
+                                        <Link to="/" >Home</Link>
+                                    </li>
                                     {/* <li>
                                 <Link to="/shop/" >My-shop</Link>
                                 </li> */}

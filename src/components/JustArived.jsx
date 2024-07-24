@@ -17,8 +17,7 @@ export default function JustArived() {
                                 </figure>
                                 <div className="product-details">
                                     <div className="category-list">
-                                        <a href="demo7-shop.html" className="product-category">clothing</a>,
-                                        <a href="demo7-shop.html" className="product-category">shoes</a>
+                                        <a href="#" className="product-category">Ahold Acorn Squash</a>,
                                     </div>
                                     <h3 className="product-title"> <a href="demo7-product.html">Men Black Glasses</a> </h3>
                                     <div className="ratings-container">
@@ -31,7 +30,7 @@ export default function JustArived() {
                                     </div>
                                     {/* <!-- End .product-container --> */}
                                     <div className="price-box">
-                                        <span className="product-price">$99.00 – $109.00</span>
+                                        <span className="product-price">₦9.00 – $109.00</span>
                                     </div>
                                     {/* <!-- End .price-box --> */}
                                 </div>
@@ -48,8 +47,8 @@ export default function JustArived() {
                                 </figure>
                                 <div className="product-details">
                                     <div className="category-list">
-                                        <a href="demo7-shop.html" className="product-category">clothing</a>,
-                                        <a href="demo7-shop.html" className="product-category">shoes</a>
+                                        <a href="#" className="product-category">clothing</a>,
+                                        <a href="#" className="product-category">shoes</a>
                                     </div>
                                     <h3 className="product-title"> <a href="demo7-product.html">Men Black Glasses</a> </h3>
                                     <div className="ratings-container">
@@ -62,7 +61,7 @@ export default function JustArived() {
                                     </div>
                                     {/* <!-- End .product-container --> */}
                                     <div className="price-box">
-                                        <span className="product-price">$99.00 – $109.00</span>
+                                        <span className="product-price">₦9.00 – $109.00</span>
                                     </div>
                                     {/* <!-- End .price-box --> */}
                                 </div>
@@ -80,8 +79,8 @@ export default function JustArived() {
                                 </figure>
                                 <div className="product-details">
                                     <div className="category-list">
-                                        <a href="demo7-shop.html" className="product-category">clothing</a>,
-                                        <a href="demo7-shop.html" className="product-category">men black shoes</a>
+                                        <a href="#" className="product-category">clothing</a>,
+                                        <a href="#" className="product-category">men black shoes</a>
                                     </div>
                                     <h3 className="product-title"> <a href="demo7-product.html">Men Black Shoes</a> </h3>
                                     <div className="ratings-container">
@@ -94,7 +93,7 @@ export default function JustArived() {
                                     </div>
                                     {/* <!-- End .product-container --> */}
                                     <div className="price-box">
-                                        <span className="product-price">$99.00 – $109.00</span>
+                                        <span className="product-price">₦9.00 – $109.00</span>
                                     </div>
                                     {/* <!-- End .price-box --> */}
                                 </div>
@@ -111,8 +110,8 @@ export default function JustArived() {
                                 </figure>
                                 <div className="product-details">
                                     <div className="category-list">
-                                        <a href="demo7-shop.html" className="product-category">clothing</a>,
-                                        <a href="demo7-shop.html" className="product-category">shoes</a>
+                                        <a href="#" className="product-category">clothing</a>,
+                                        <a href="#" className="product-category">shoes</a>
                                     </div>
                                     <h3 className="product-title"> <a href="demo7-product.html">Men cap</a> </h3>
                                     <div className="ratings-container">
@@ -125,7 +124,7 @@ export default function JustArived() {
                                     </div>
                                     {/* <!-- End .product-container --> */}
                                     <div className="price-box">
-                                        <span className="product-price">$99.00 – $109.00</span>
+                                        <span className="product-price">₦9.00 – $109.00</span>
                                     </div>
                                     {/* <!-- End .price-box --> */}
                                 </div>
@@ -143,8 +142,8 @@ export default function JustArived() {
                                 </figure>
                                 <div className="product-details">
                                     <div className="category-list">
-                                        <a href="demo7-shop.html" className="product-category">clothing</a>,
-                                        <a href="demo7-shop.html" className="product-category">Brown Belt</a>
+                                        <a href="#" className="product-category">clothing</a>,
+                                        <a href="#" className="product-category">Brown Belt</a>
                                     </div>
                                     <h3 className="product-title"> <a href="demo7-product.html">Men Brown Belt</a> </h3>
                                     <div className="ratings-container">
@@ -157,7 +156,7 @@ export default function JustArived() {
                                     </div>
                                     {/* <!-- End .product-container --> */}
                                     <div className="price-box">
-                                        <span className="product-price">$99.00 – $109.00</span>
+                                        <span className="product-price">₦9.00 – $109.00</span>
                                     </div>
                                     {/* <!-- End .price-box --> */}
                                 </div>
@@ -175,8 +174,8 @@ export default function JustArived() {
                                 </figure>
                                 <div className="product-details">
                                     <div className="category-list">
-                                        <a href="demo7-shop.html" className="product-category">clothing</a>,
-                                        <a href="demo7-shop.html" className="product-category">Men Gentle Shoes</a>
+                                        <a href="#" className="product-category">clothing</a>,
+                                        <a href="#" className="product-category">Men Gentle Shoes</a>
                                     </div>
                                     <h3 className="product-title"> <a href="demo7-product.html">Men Gentle Shoes</a> </h3>
                                     <div className="ratings-container">
@@ -189,7 +188,7 @@ export default function JustArived() {
                                     </div>
                                     {/* <!-- End .product-container --> */}
                                     <div className="price-box">
-                                        <span className="product-price">$99.00 – $109.00</span>
+                                        <span className="product-price">₦9.00 – $109.00</span>
                                     </div>
                                     {/* <!-- End .price-box --> */}
                                 </div>
@@ -206,8 +205,8 @@ export default function JustArived() {
                                 </figure>
                                 <div className="product-details">
                                     <div className="category-list">
-                                        <a href="demo7-shop.html" className="product-category">clothing</a>,
-                                        <a href="demo7-shop.html" className="product-category">Men Black Belt</a>
+                                        <a href="#" className="product-category">clothing</a>,
+                                        <a href="#" className="product-category">Men Black Belt</a>
                                     </div>
                                     <h3 className="product-title"> <a href="demo7-product.html">Men Black Belt</a> </h3>
                                     <div className="ratings-container">
@@ -220,7 +219,7 @@ export default function JustArived() {
                                     </div>
                                     {/* <!-- End .product-container --> */}
                                     <div className="price-box">
-                                        <span className="product-price">$99.00 – $109.00</span>
+                                        <span className="product-price">₦9.00 – $109.00</span>
                                     </div>
                                     {/* <!-- End .price-box --> */}
                                 </div>
@@ -237,8 +236,8 @@ export default function JustArived() {
                                 </figure>
                                 <div className="product-details">
                                     <div className="category-list">
-                                        <a href="demo7-shop.html" className="product-category">clothing</a>,
-                                        <a href="demo7-shop.html" className="product-category">Jeans Pants</a>
+                                        <a href="#" className="product-category">clothing</a>,
+                                        <a href="#" className="product-category">Jeans Pants</a>
                                     </div>
                                     <h3 className="product-title"> <a href="demo7-product.html">Jeans Pants</a> </h3>
                                     <div className="ratings-container">
@@ -251,7 +250,7 @@ export default function JustArived() {
                                     </div>
                                     {/* <!-- End .product-container --> */}
                                     <div className="price-box">
-                                        <span className="product-price">$99.00 – $109.00</span>
+                                        <span className="product-price">₦9.00 – $109.00</span>
                                     </div>
                                     {/* <!-- End .price-box --> */}
                                 </div>
@@ -268,8 +267,8 @@ export default function JustArived() {
                                 </figure>
                                 <div className="product-details">
                                     <div className="category-list">
-                                        <a href="demo7-shop.html" className="product-category">clothing</a>,
-                                        <a href="demo7-shop.html" className="product-category">Jeans Trouser</a>
+                                        <a href="#" className="product-category">clothing</a>,
+                                        <a href="#" className="product-category">Jeans Trouser</a>
                                     </div>
                                     <h3 className="product-title"> <a href="demo7-product.html">Jeans Trouser</a> </h3>
                                     <div className="ratings-container">
@@ -282,7 +281,7 @@ export default function JustArived() {
                                     </div>
                                     {/* <!-- End .product-container --> */}
                                     <div className="price-box">
-                                        <span className="product-price">$99.00 – $109.00</span>
+                                        <span className="product-price">₦9.00 – $109.00</span>
                                     </div>
                                     {/* <!-- End .price-box --> */}
                                 </div>
@@ -299,8 +298,8 @@ export default function JustArived() {
                                 </figure>
                                 <div className="product-details">
                                     <div className="category-list">
-                                        <a href="demo7-shop.html" className="product-category">clothing</a>,
-                                        <a href="demo7-shop.html" className="product-category">Men Gray Cap</a>
+                                        <a href="#" className="product-category">clothing</a>,
+                                        <a href="#" className="product-category">Men Gray Cap</a>
                                     </div>
                                     <h3 className="product-title"> <a href="demo7-product.html">Men Gray Cap</a> </h3>
                                     <div className="ratings-container">
@@ -313,7 +312,7 @@ export default function JustArived() {
                                     </div>
                                     {/* <!-- End .product-container --> */}
                                     <div className="price-box">
-                                        <span className="product-price">$99.00 – $109.00</span>
+                                        <span className="product-price">₦9.00 – $109.00</span>
                                     </div>
                                     {/* <!-- End .price-box --> */}
                                 </div>

@@ -52,8 +52,8 @@ export default function HomeProduct() {
                                 </figure>
                                 <div className="product-details">
                                     <div className="category-list">
-                                        <a href="demo7-shop.html" className="product-category">Fashion</a>,
-                                        <a href="demo7-shop.html" className="product-category">Glasses</a>
+                                        <a href="#" className="product-category">Fashion</a>,
+                                        <a href="#" className="product-category">Glasses</a>
                                     </div>
                                     <h3 className="product-title"> <a href="demo7-product.html">Black Glasses</a> </h3>
                                     <div className="ratings-container">
@@ -66,7 +66,7 @@ export default function HomeProduct() {
                                     </div>
                                     {/* <!-- End .product-container --> */}
                                     <div className="price-box">
-                                        <span className="product-price">$99.00 – $109.00</span>
+                                        <span className="product-price">₦9.00 – $109.00</span>
                                     </div>
                                     {/* <!-- End .price-box --> */}
                                     <div className="product-action">
@@ -100,8 +100,8 @@ export default function HomeProduct() {
                                 </figure>
                                 <div className="product-details">
                                     <div className="category-list">
-                                        <a href="demo7-shop.html" className="product-category">clothing</a>,
-                                        <a href="demo7-shop.html" className="product-category">shoes</a>
+                                        <a href="#" className="product-category">clothing</a>,
+                                        <a href="#" className="product-category">shoes</a>
                                     </div>
                                     <h3 className="product-title"> <a href="demo7-product.html">Jeans Pants</a> </h3>
                                     <div className="ratings-container">
@@ -148,8 +148,8 @@ export default function HomeProduct() {
                                 </figure>
                                 <div className="product-details">
                                     <div className="category-list">
-                                        <a href="demo7-shop.html" className="product-category">clothing</a>,
-                                        <a href="demo7-shop.html" className="product-category">shoes</a>
+                                        <a href="#" className="product-category">clothing</a>,
+                                        <a href="#" className="product-category">shoes</a>
                                     </div>
                                     <h3 className="product-title"> <a href="demo7-product.html">Black Glasses</a> </h3>
                                     <div className="ratings-container">
@@ -196,8 +196,8 @@ export default function HomeProduct() {
                                 </figure>
                                 <div className="product-details">
                                     <div className="category-list">
-                                        <a href="demo7-shop.html" className="product-category">clothing</a>,
-                                        <a href="demo7-shop.html" className="product-category">shoes</a>
+                                        <a href="#" className="product-category">clothing</a>,
+                                        <a href="#" className="product-category">shoes</a>
                                     </div>
                                     <h3 className="product-title"> <a href="demo7-product.html">Black Glasses</a> </h3>
                                     <div className="ratings-container">

@@ -1,129 +1,144 @@
 import { useState } from 'react'
 import axios from 'axios'
+
 export default function Register() {
+    const [formdata, setFormdata] = useState({
+        fullName: "",
+        email: "",
+        address: "",
+        password: "",
+        cpassword: "",
+    })
 
-	const [formdata, setFormdata] = useState({
-		username: "",
-		email: "",
-		phone: "",
-		password: "",
-		cpassword: "",
-	})
+    const [error, setError] = useState("")
 
-	const OnchangeData = (e) => {
-		setFormdata({
-			...formdata,
-			[e.target.name]: e.target.value
-		})
-	}
+    const OnchangeData = (e) => {
+        setFormdata({
+            ...formdata,
+            [e.target.name]: e.target.value
+        })
+    }
 
-// ................send form data,,,,,,,,,,,,,,,,,,,
+    const Onhandleform = (e) => {
+        e.preventDefault();
+        setError("");  // Clear any previous errors
 
-const Onhandleform=(e)=>{
-    e.preventDefault();
-	axios({
-		method:"post",
-        url:"http://localhost:3001/userdata",
-        data:formdata,
-	}).then((res)=>{
-		alert(res.data)
-	})
-	// console.log(formdata)
-}
-// ..............................................
+        // Check password length and match
+        if (formdata.password.length < 8 || formdata.cpassword.length < 8) {
+            setError("Password must be at least 8 characters long");
+            return;
+        }
+        if (formdata.password !== formdata.cpassword) {
+            setError("Passwords do not match");
+            return;
+        }
 
+        // If validation passes, send form data
+        axios({
+            method: "post",
+            url: "https://farm2door-6h4h.onrender.com/api/user/register",
+            data: formdata,
+        }).then((res) => {
+            alert(res.data)
+			console.log(res.data)
+        }).catch((err) => {
+            setError("Registration failed. Please try again.");
+            console.error(err);
+        })
+    }
 
-	return (
-		<>
-			<main class="main">
-				<div class="page-header">
-					<div class="container d-flex flex-column align-items-center">
-						<nav aria-label="breadcrumb" class="breadcrumb-nav">
-							<div class="container">
-								<ol class="breadcrumb">
-									<li class="breadcrumb-item"><a href="demo4.html">Home</a></li>
-									<li class="breadcrumb-item"><a href="category.html">Shop</a></li>
-									<li class="breadcrumb-item active" aria-current="page">
-										Register
-									</li>
-								</ol>
-							</div>
-						</nav>
+    return (
+        <>
+            <main className="main">
+                <div className="page-header">
+                    <div className="container d-flex flex-column align-items-center">
+                        <nav aria-label="breadcrumb" className="breadcrumb-nav">
+                            <div className="container">
+                                <ol className="breadcrumb">
+                                    <li className="breadcrumb-item"><a href="demo4.html">Home</a></li>
+                                    <li className="breadcrumb-item"><a href="category.html">Shop</a></li>
+                                    <li className="breadcrumb-item active" aria-current="page">
+                                        Register
+                                    </li>
+                                </ol>
+                            </div>
+                        </nav>
 
-						<h1>Register</h1>
-					</div>
-				</div>
+                        <h1>Register</h1>
+                    </div>
+                </div>
 
-				<div class="container login-container">
-					<div class="row">
-						<div class="col-lg-10 mx-auto">
-							<div class="row">
-								<div class="col-md-12 mt-5">
-									<div class="heading mb-1">
-										<h2 class="title">Register</h2>
-									</div>
+                <div className="container login-container">
+                    <div className="row">
+                        <div className="col-lg-10 mx-auto">
+                            <div className="row">
+                                <div className="col-md-12 mt-5">
+                                    <div className="heading mb-1">
+                                        <h2 className="title">Register</h2>
+                                    </div>
 
-									<form onSubmit={Onhandleform} method="post">
+                                    {error && <div className="alert alert-danger">{error}</div>}
 
-										<label for="register-email">
-											Name
-											<span class="required">*</span>
-										</label>
-										<input type="text" class="form-input form-wide" id="register-name" required
-											name="username"
-											value={formdata.username}
-											onChange={OnchangeData} />
+                                    <form onSubmit={Onhandleform}>
+                                        <label htmlFor="register-name">
+                                            Full Name
+                                            <span className="required">*</span>
+                                        </label>
+                                        <input type="text" className="form-input form-wide" id="register-name" required
+                                            name="fullName"
+                                            value={formdata.fullName}
+                                            onChange={OnchangeData} />
 
-										<label for="register-email">
-											Email address
-											<span class="required">*</span>
-										</label>
-										<input type="email" class="form-input form-wide" id="register-email" required
-											name="email"
-											value={formdata.email}
-											onChange={OnchangeData} />
+                                        <label htmlFor="register-email">
+                                            Email address
+                                            <span className="required">*</span>
+                                        </label>
+                                        <input type="email" className="form-input form-wide" id="register-email" required
+                                            name="email"
+                                            value={formdata.email}
+                                            onChange={OnchangeData} />
 
-										<label for="register-email">
-											Contact
-											<span class="required">*</span>
-										</label>
-										<input type="text" class="form-input form-wide" id="register-contact" required
-											name='phone'
-											value={formdata.phone}
-											onChange={OnchangeData} />
+                                        <label htmlFor="register-address">
+                                            Address
+                                            <span className="required">*</span>
+                                        </label>
+                                        <input type="text" className="form-input form-wide" id="register-address" required
+                                            name='address'
+                                            value={formdata.address}
+                                            onChange={OnchangeData} />
 
-										<label for="register-password">
-											Password
-											<span class="required">*</span>
-										</label>
-										<input type="password" class="form-input form-wide" id="register-password"
-											required
-											name='password'
-											value={formdata.password}
-											onChange={OnchangeData} />
+                                        <label htmlFor="register-password">
+                                            Password
+                                            <span className="required">*</span>
+                                        </label>
+                                        <input type="password" className="form-input form-wide" id="register-password"
+                                            required
+                                            name='password'
+                                            value={formdata.password}
+                                            onChange={OnchangeData} />
 
-										<label for="register-cpassword">
-											Confirm Password
-											<span class="required">*</span>
-										</label>
-										<input type="password" class="form-input form-wide" id="register-cpassword"
-											required
-											name='cpassword'
-											value={formdata.cpassword}
-											onChange={OnchangeData} />
+                                        <label htmlFor="register-cpassword">
+                                            Confirm Password
+                                            <span className="required">*</span>
+                                        </label>
+                                        <input type="password" className="form-input form-wide" id="register-cpassword"
+                                            required
+                                            name='cpassword'
+                                            value={formdata.cpassword}
+                                            onChange={OnchangeData} />
 
-										<div class="form-footer mb-2">
-											<button type="submit" class="btn btn-dark btn-md w-100 mr-0">
-												Register
-											</button>
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</main>
-		</>
-	)
+                                        <div className="form-footer mb-2">
+                                            <button type="submit" className="btn btn-dark btn-md w-100 mr-0">
+                                                Register
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </>
+    )
 }

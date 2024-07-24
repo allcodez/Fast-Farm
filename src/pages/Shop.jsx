@@ -142,7 +142,7 @@ export default function Shop() {
                                         
 
                                         <div class="price-box">
-                                            <span class="old-price">$90.00</span>
+                                            <span class="old-price">₦0.00</span>
                                             <span class="product-price">$70.00</span>
                                         </div>
                                        
@@ -243,7 +243,7 @@ export default function Shop() {
                                         
 
                                         <div class="price-box">
-                                            <span class="old-price">$90.00</span>
+                                            <span class="old-price">₦0.00</span>
                                             <span class="product-price">$70.00</span>
 
                                         </div>
@@ -295,7 +295,7 @@ export default function Shop() {
                                         
 
                                         <div class="price-box">
-                                            <span class="old-price">$90.00</span>
+                                            <span class="old-price">₦0.00</span>
                                             <span class="product-price">$70.00</span>
                                         </div>
                                        
@@ -348,7 +348,7 @@ export default function Shop() {
                                         
 
                                         <div class="price-box">
-                                            <span class="old-price">$90.00</span>
+                                            <span class="old-price">₦0.00</span>
                                             <span class="product-price">$70.00</span>
                                         </div>
                                        
@@ -400,7 +400,7 @@ export default function Shop() {
                                         
 
                                         <div class="price-box">
-                                            <span class="old-price">$90.00</span>
+                                            <span class="old-price">₦0.00</span>
                                             <span class="product-price">$70.00</span>
                                         </div>
                                        
@@ -452,7 +452,7 @@ export default function Shop() {
                                         
 
                                         <div class="price-box">
-                                            <span class="old-price">$90.00</span>
+                                            <span class="old-price">₦0.00</span>
                                             <span class="product-price">$70.00</span>
                                         </div>
                                        
@@ -504,7 +504,7 @@ export default function Shop() {
                                         
 
                                         <div class="price-box">
-                                            <span class="old-price">$90.00</span>
+                                            <span class="old-price">₦0.00</span>
                                             <span class="product-price">$70.00</span>
                                         </div>
                                        
@@ -552,7 +552,7 @@ export default function Shop() {
                                         
 
                                         <div class="price-box">
-                                            <span class="old-price">$90.00</span>
+                                            <span class="old-price">₦0.00</span>
                                             <span class="product-price">$70.00</span>
                                         </div>
                                        
@@ -605,7 +605,7 @@ export default function Shop() {
                                         
 
                                         <div class="price-box">
-                                            <span class="old-price">$90.00</span>
+                                            <span class="old-price">₦0.00</span>
                                             <span class="product-price">$70.00</span>
                                         </div>
                                        
@@ -653,7 +653,7 @@ export default function Shop() {
                                         
 
                                         <div class="price-box">
-                                            <span class="old-price">$90.00</span>
+                                            <span class="old-price">₦0.00</span>
                                             <span class="product-price">$70.00</span>
                                         </div>
                                        
@@ -704,7 +704,7 @@ export default function Shop() {
                                         
 
                                         <div class="price-box">
-                                            <span class="old-price">$90.00</span>
+                                            <span class="old-price">₦0.00</span>
                                             <span class="product-price">$70.00</span>
                                         </div>
                                        

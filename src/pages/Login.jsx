@@ -1,99 +1,108 @@
-import { useState,useContext } from 'react';
+import { useState, useContext } from 'react';
 import { AuthContext } from '../Context/AuthContext';
+
 export default function Login() {
-	const {UserLogin}=useContext(AuthContext)
-//...............................
-	const [formdata,setFormdata]=useState({
-        email:"",
-        password:"",
-    })
-//........................................
-	const OnchangeData=(e)=>{
-		setFormdata({
-			...formdata,
-			[e.target.name]: e.target.value
-		})
-	}
+    const { UserLogin } = useContext(AuthContext);
+    const [formdata, setFormdata] = useState({
+        email: "",
+        password: "",
+    });
+    const [error, setError] = useState("");
 
-//..................................
-const Onhandleform=(e)=>{
-    e.preventDefault();
-	console.log(formdata)
-    UserLogin(formdata)
-}
+    const OnchangeData = (e) => {
+        setFormdata({
+            ...formdata,
+            [e.target.name]: e.target.value
+        });
+    };
 
-// .................................
-  return (
-    <>
-    <main class="main">
-			<div class="page-header">
-				<div class="container d-flex flex-column align-items-center">
-					<nav aria-label="breadcrumb" class="breadcrumb-nav">
-						<div class="container">
-							<ol class="breadcrumb">
-								<li class="breadcrumb-item"><a href="demo4.html">Home</a></li>
-								<li class="breadcrumb-item"><a href="category.html">Shop</a></li>
-								<li class="breadcrumb-item active" aria-current="page">
-									Login
-								</li>
-							</ol>
-						</div>
-					</nav>
+    const Onhandleform = (e) => {
+        e.preventDefault();
+        setError("");
+        UserLogin(formdata);
+    };
 
-					<h1>Login</h1>
-				</div>
-			</div>
+    return (
+        <>
+            <main className="main">
+                <div className="page-header">
+                    <div className="container d-flex flex-column align-items-center">
+                        <nav aria-label="breadcrumb" className="breadcrumb-nav">
+                            <div className="container">
+                                <ol className="breadcrumb">
+                                    <li className="breadcrumb-item"><a href="demo4.html">Home</a></li>
+                                    <li className="breadcrumb-item"><a href="category.html">Shop</a></li>
+                                    <li className="breadcrumb-item active" aria-current="page">
+                                        Login
+                                    </li>
+                                </ol>
+                            </div>
+                        </nav>
 
-			<div class="container login-container">
-				<div class="row">
-					<div class="col-lg-10 mx-auto">
-						<div class="row">
-							<div class="col-md-12 mt-5">
-								<div class="heading mb-1">
-									<h2 class="title">Login</h2>
-								</div>
+                        <h1>Login</h1>
+                    </div>
+                </div>
 
-								<form onSubmit={Onhandleform} method="post">
-									<label for="login-email">
-										Username or email address
-										<span class="required">*</span>
-									</label>
-									<input type="email" class="form-input form-wide" id="login-email" required 
-									name="email"
-                                    value={formdata.email}
-                                    onChange={OnchangeData}/>
+                <div className="container login-container">
+                    <div className="row">
+                        <div className="col-lg-10 mx-auto">
+                            <div className="row">
+                                <div className="col-md-12 mt-5">
+                                    <div className="heading mb-1">
+                                        <h2 className="title">Login</h2>
+                                    </div>
 
-									<label for="login-password">
-										Password
-										<span class="required">*</span>
-									</label>
-									<input type="password" class="form-input form-wide" id="login-password" required 
-									name='password'
-                                    value={formdata.password}
-                                    onChange={OnchangeData}/>
+                                    {error && <div className="alert alert-danger">{error}</div>}
 
-									<div class="form-footer">
-										<div class="custom-control custom-checkbox mb-0">
-											<input type="checkbox" class="custom-control-input" id="lost-password" />
-											<label class="custom-control-label mb-0" for="lost-password">Remember
-												me</label>
-										</div>
+                                    <form onSubmit={Onhandleform}>
+                                        <label htmlFor="login-email">
+                                            Username or email address
+                                            <span className="required">*</span>
+                                        </label>
+                                        <input 
+                                            type="email" 
+                                            className="form-input form-wide" 
+                                            id="login-email" 
+                                            required 
+                                            name="email"
+                                            value={formdata.email}
+                                            onChange={OnchangeData}
+                                        />
 
-										<a href="forgot-password.html"
-											class="forget-password text-dark form-footer-right">Forgot
-											Password?</a>
-									</div>
-									<button type="submit" class="btn btn-dark btn-md w-100">
-										LOGIN
-									</button>
-								</form>
-							</div>
-							
-						</div>
-					</div>
-				</div>
-			</div>
-		</main>
-    </>
-  )
+                                        <label htmlFor="login-password">
+                                            Password
+                                            <span className="required">*</span>
+                                        </label>
+                                        <input 
+                                            type="password" 
+                                            className="form-input form-wide" 
+                                            id="login-password" 
+                                            required 
+                                            name='password'
+                                            value={formdata.password}
+                                            onChange={OnchangeData}
+                                        />
+
+                                        <div className="form-footer">
+                                            <div className="custom-control custom-checkbox mb-0">
+                                                <input type="checkbox" className="custom-control-input" id="remember-me" />
+                                                <label className="custom-control-label mb-0" htmlFor="remember-me">Remember me</label>
+                                            </div>
+
+                                            <a href="forgot-password.html" className="forget-password text-dark form-footer-right">
+                                                Forgot Password?
+                                            </a>
+                                        </div>
+                                        <button type="submit" className="btn btn-dark btn-md w-100">
+                                            LOGIN
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </>
+    );
 }

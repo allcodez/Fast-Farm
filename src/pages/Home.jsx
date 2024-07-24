@@ -21,7 +21,7 @@ export default function Home() {
                                         <h5 className="text-white text-uppercase ls-n-20 align-text-bottom">
                                             Starting At <b className="coupon-sale-text bg-secondary text-white d-inline-block">$<em
                                                 className="align-text-top">199</em>99</b></h5>
-                                        <a href="demo7-shop.html" className="btn bg-white btn-md ls-10">Shop Now!</a>
+                                        <a href="#" className="btn bg-white btn-md ls-10">Shop Now!</a>
                                     </div>
                                     {/* <!-- End .banner-layer --> */}
                                 </div>
@@ -41,7 +41,7 @@ export default function Home() {
                                             <h3 className="text-white font1">Leather Jackets</h3>
                                             <h5 className="coupon-sale-text text-white ls-0 p-0"><i className="ls-0 font1">UP
                                                 TO</i><b className="text-white bg-secondary">$100</b><sub>OFF</sub></h5>
-                                            <a href="demo7-shop.html" className="btn bg-white btn-lg ls-10 d-block d-lg-inline-block  text-dark">Get
+                                            <a href="#" className="btn bg-white btn-lg ls-10 d-block d-lg-inline-block  text-dark">Get
                                                 Yours!</a>
                                         </div>
                                     </div>
