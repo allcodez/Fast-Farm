@@ -30,7 +30,7 @@ export default function Header() {
                                 <div className="header-menu">
                                     <ul>
                                         {/* <li><Link to="dashboard.html">My Account</Link></li> */}
-                                        <li><Link to="/about/">About Us</Link></li>
+                                        {/* <li><Link to="/about/">About Us</Link></li> */}
                                         {/* <li><Link to="blog.html">Blog</Link></li> */}
                                         {/* <li><Link to="wishlist.html">My Wishlist</Link></li> */}
                                         <li><Link to="/cart/">Cart</Link></li>
@@ -76,9 +76,9 @@ export default function Header() {
                                 <Link to="/shop/" >My-shop</Link>
                                 </li> */}
 
-                                    <li>
+                                    {/* <li>
                                         <Link to="/about/">About Us</Link>
-                                    </li>
+                                    </li> */}
                                     {sessionStorage.getItem("token") ?
                                         <>
                                             <li><Link onClick={Logout}>Logout</Link></li>

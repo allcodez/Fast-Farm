@@ -42,7 +42,7 @@ export default function HomeProduct() {
                         <div className='col-lg-3'>
                             <div className="product-default left-details">
                                 <figure>
-                                    <a href="demo7-product.html">
+                                    <a href="#">
                                         <img src="/assets/images/demoes/demo7/products/product-1.jpg" alt="product" width="300" height="300" />
                                         <img src="/assets/images/demoes/demo7/products/product-1-2.jpg" alt="product" width="300" height="300" />
                                     </a>
@@ -55,7 +55,7 @@ export default function HomeProduct() {
                                         <a href="#" className="product-category">Fashion</a>,
                                         <a href="#" className="product-category">Glasses</a>
                                     </div>
-                                    <h3 className="product-title"> <a href="demo7-product.html">Black Glasses</a> </h3>
+                                    <h3 className="product-title"> <a href="#">Black Glasses</a> </h3>
                                     <div className="ratings-container">
                                         <div className="product-ratings">
                                             <span className="ratings" style={{ width: "0%" }}></span>
@@ -90,7 +90,7 @@ export default function HomeProduct() {
                         <div className='col-lg-3'>
                             <div className="product-default left-details">
                                 <figure>
-                                    <a href="demo7-product.html">
+                                    <a href="#">
                                         <img src="/assets/images/demoes/demo7/products/product-2.jpg" alt="product" width="300" height="300" />
                                         <img src="/assets/images/demoes/demo7/products/product-2-2.jpg" alt="product" width="300" height="300" />
                                     </a>
@@ -103,7 +103,7 @@ export default function HomeProduct() {
                                         <a href="#" className="product-category">clothing</a>,
                                         <a href="#" className="product-category">shoes</a>
                                     </div>
-                                    <h3 className="product-title"> <a href="demo7-product.html">Jeans Pants</a> </h3>
+                                    <h3 className="product-title"> <a href="#">Jeans Pants</a> </h3>
                                     <div className="ratings-container">
                                         <div className="product-ratings">
                                             <span className="ratings" style={{ width: "0%" }}></span>
@@ -138,7 +138,7 @@ export default function HomeProduct() {
                         <div className='col-lg-3'>
                             <div className="product-default left-details">
                                 <figure>
-                                    <a href="demo7-product.html">
+                                    <a href="#">
                                         <img src="/assets/images/demoes/demo7/products/product-4.jpg" alt="product" width="300" height="300" />
                                         <img src="/assets/images/demoes/demo7/products/product-4-2.jpg" alt="product" width="300" height="300" />
                                     </a>
@@ -151,7 +151,7 @@ export default function HomeProduct() {
                                         <a href="#" className="product-category">clothing</a>,
                                         <a href="#" className="product-category">shoes</a>
                                     </div>
-                                    <h3 className="product-title"> <a href="demo7-product.html">Black Glasses</a> </h3>
+                                    <h3 className="product-title"> <a href="#">Black Glasses</a> </h3>
                                     <div className="ratings-container">
                                         <div className="product-ratings">
                                             <span className="ratings" style={{ width: "0%" }}></span>
@@ -186,7 +186,7 @@ export default function HomeProduct() {
                         <div className='col-lg-3'>
                             <div className="product-default left-details">
                                 <figure>
-                                    <a href="demo7-product.html">
+                                    <a href="#">
                                         <img src="/assets/images/demoes/demo7/products/product-6.jpg" alt="product" width="300" height="300" />
                                         <img src="/assets/images/demoes/demo7/products/product-6-2.jpg" alt="product" width="300" height="300" />
                                     </a>
@@ -199,7 +199,7 @@ export default function HomeProduct() {
                                         <a href="#" className="product-category">clothing</a>,
                                         <a href="#" className="product-category">shoes</a>
                                     </div>
-                                    <h3 className="product-title"> <a href="demo7-product.html">Black Glasses</a> </h3>
+                                    <h3 className="product-title"> <a href="#">Black Glasses</a> </h3>
                                     <div className="ratings-container">
                                         <div className="product-ratings">
                                             <span className="ratings" style={{ width: "0%" }}></span>

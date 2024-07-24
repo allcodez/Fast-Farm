@@ -12,7 +12,7 @@ export default function Category() {
                         <div className='row'>
                             <div className='col-l-3'>
                             <div className="banner banner-image">
-                                <a href="demo7-product.html">
+                                <a href="#">
                                     <img src="/products/blackfrouit.webp" width="272" height="231" alt="banner" />
                                 </a>
                                 <div className="banner-layer banner-layer-middle">
@@ -24,7 +24,7 @@ export default function Category() {
 
                             <div className="col-lg-3">
                             <div className="banner banner-image">
-                                <a href="demo7-product.html">
+                                <a href="#">
                                     <img src="/products/Lettuce.webp" width="272" height="231" alt="banner" />
                                 </a>
                                 <div className="banner-layer banner-layer-middle">
@@ -36,7 +36,7 @@ export default function Category() {
 
                             <div className="col-lg-3">
                             <div className="banner banner-image">
-                                <a href="demo7-product.html">
+                                <a href="#">
                                     <img src="/products/onion.webp" width="272" height="231" alt="banner" />
                                 </a>
                                 <div className="banner-layer banner-layer-middle">
